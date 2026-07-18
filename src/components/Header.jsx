@@ -4,10 +4,13 @@ import Link from "next/link";
 import { useState } from "react";
 
 const NAV_LINKS = [
+  { label: "Categories", href: "/categories" },
+  { label: "Find artists", href: "/artists" },
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Categories", href: "/artists" },
-  { label: "Services", href: "/services" },
+  { label: "Beauty trends", href: "/beauty-trends" },
+  { label: "Masterclass", href: "/masterclass" },
+  { label: "Course", href: "/course" },
   { label: "Contact", href: "/contact" },
 ];
 
